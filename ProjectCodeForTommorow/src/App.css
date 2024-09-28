@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: rgb(224, 230, 237);
+}
+
+.posts-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  position: relative;
+}
+
+.remove-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.pagination {
+  margin: 20px;
+}
+
+.pagination button {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.pagination .active {
+  font-weight: bold;
+  background-color: lightblue;
+}
